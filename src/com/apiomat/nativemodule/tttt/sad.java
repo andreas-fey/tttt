@@ -61,6 +61,7 @@ public class sad extends AbstractClientDataModel implements IModel<sad>
     public static final String MODEL_NAME = "sad";
 
     /** class specific attributes */
+    private String asda = null;
     /**
      * Protected constructor; to create a new instance, use the createObject() method
      */
@@ -83,6 +84,16 @@ public class sad extends AbstractClientDataModel implements IModel<sad>
     public String getModelName( )
     {
         return MODEL_NAME;
+    }
+
+    public String getAsda()
+    {
+         return this.asda;
+    }
+
+    public void setAsda( String arg )
+    {
+        this.asda = arg;
     }
 
 }
